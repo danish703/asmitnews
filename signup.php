@@ -11,6 +11,7 @@
         <div class="col-6">
             <div class="card">
                 <div class="card-body">
+                <form method="post" action="db/signup.php">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Full Name  </span>
                         <input type="text" name="fullName" class="form-control" placeholder="Full Name" aria-label="Username" aria-describedby="basic-addon1">
@@ -24,8 +25,11 @@
                         <input type="password" name="password" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                     <hr/>
-                    <button type="submit" style="float:right;" class="btn btn-success">Signup</button>
+                    <input type="submit" value="Signup" name="submit" style="float:right;" class="btn btn-success">
+                </form>
                 </div>
+               
+                <?php include('include/message.php'); ?> 
             </div>
         </div>
     </div>

@@ -4,9 +4,9 @@
    $password = "";
    $dbname = "asmtnews";
 
-  $con = mysqli_connect($host,$username,$password,$dbname);
+  $conn = mysqli_connect($host,$username,$password,$dbname);
   
-  if(!$con){
+  if(!$conn){
       die("connection failed");
   }
   
