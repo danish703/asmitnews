@@ -18,13 +18,14 @@
                     </div>
                      <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Email  </span>
-                        <input type="email" name="email" class="form-control" placeholder="Full Name" aria-label="email" aria-describedby="basic-addon1">
+                        <input type="email" name="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
                     </div>
                      <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Password  </span>
                         <input type="password" name="password" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                     <hr/>
+                    Already Account ? <a href="login.php">Login</a> 
                     <input type="submit" value="Signup" name="submit" style="float:right;" class="btn btn-success">
                 </form>
                 </div>
