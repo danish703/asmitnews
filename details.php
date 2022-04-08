@@ -33,6 +33,17 @@ if(!isset($_GET['id'])){
                     <hr/>
                     <?php echo $result['content'];?>
                 </div>
+                <div class="card-footer">
+                    <form method="post" action="db/comment.php?id=<?php echo $_GET['id'];?>">
+                        <div class="form-group">
+                            <label for="">Comment</label>
+                            <textarea name="comment" id="" cols="30" rows="5" class="form-control"></textarea>
+                            
+                        </div>
+                        <hr/>
+                        <button type="submit" name="submit" class="btn btn-primary">Save</button>
+                    </form>
+                </div>
             </div>
         </div>
    </div>
